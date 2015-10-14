@@ -4,7 +4,7 @@
 * Email:liuyu@wowtools.org
 
 
-将sql转为elasticsearch的DSL语句，并可进行增删改查操作
+将sql转为elasticsearch的DSL语句，并可进行增删改查操作,例如：
 
 ```java
 String sql = "update test set team_leader_name = 'tom',team_name = 'google',type = 100 where _id = '1'";
